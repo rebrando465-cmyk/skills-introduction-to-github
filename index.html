@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人网站 | Creative Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav shell">
+        <a class="logo" href="#home">MingLab</a>
+        <ul>
+          <li><a href="#home">首页</a></li>
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#works">我的作品</a></li>
+          <li><a href="#testimonials">评价</a></li>
+        </ul>
+        <a class="btn btn-pill" href="#contact">联系我</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <span class="chip">👋 你好，欢迎来到我的小宇宙</span>
+            <h1>
+              我是明川，<br />
+              一个热爱叙事的<br />
+              创意设计师
+            </h1>
+            <p>
+              专注品牌视觉、网页体验与内容表达。把复杂信息做得更温柔、更清晰，也更有记忆点。
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#works">查看作品</a>
+              <a class="btn btn-outline" href="#contact">联系合作</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="avatar">
+              <div class="head"></div>
+              <div class="body"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-warm">
+        <div class="shell two-col">
+          <div>
+            <h2>一点关于我</h2>
+            <p>
+              我来自杭州，目前是一名自由设计师。过去几年我服务过科技、教育与生活方式品牌，主要负责网站设计与视觉系统。
+            </p>
+            <p>
+              我喜欢有温度的创作方式：在理性结构中加入可爱的细节，让作品既实用又有性格。
+            </p>
+          </div>
+          <aside class="about-card">
+            <h3>擅长方向</h3>
+            <ul>
+              <li>品牌与视觉识别</li>
+              <li>作品集与企业官网设计</li>
+              <li>设计系统与组件化规范</li>
+              <li>插画风格探索</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="works" class="works section-warm deeper">
+        <div class="shell">
+          <h2>我的近期作品</h2>
+          <div class="work-list">
+            <article class="work-card">
+              <div class="work-copy">
+                <h3>萌系学习平台</h3>
+                <p>围绕“轻松学习”主题重构首页与课程页，信息更聚焦，转化率显著提升。</p>
+                <a href="#" class="text-link">Explore</a>
+              </div>
+              <div class="work-preview tiles" aria-hidden="true">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </article>
+
+            <article class="work-card">
+              <div class="work-copy">
+                <h3>独立摄影品牌官网</h3>
+                <p>打造具备故事感的个人品牌网站，突出作品叙事与预约流程，提升品牌专业感。</p>
+                <a href="#" class="text-link">Explore</a>
+              </div>
+              <div class="work-preview stripes" aria-hidden="true"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials section-light">
+        <div class="shell">
+          <h2>一些真诚反馈</h2>
+          <p class="subtitle">来自合作伙伴的精选评价</p>
+          <div class="quote-grid">
+            <blockquote>
+              “沟通非常顺畅，设计交付兼顾审美与业务目标，细节处理尤其令人印象深刻。”
+              <cite>— 品牌主理人 / 阿青</cite>
+            </blockquote>
+            <blockquote>
+              “在很短周期内搭建了完整视觉框架，团队后续迭代效率明显变高。”
+              <cite>— 产品负责人 / Luna</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="shell footer-wrap">
+        <h2>让我们一起做些可爱又有用的事</h2>
+        <p>邮箱：hello@minglab.design · 微信：MingLabStudio</p>
+      </div>
+    </footer>
+  </body>
+</html>
